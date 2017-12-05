@@ -1,7 +1,12 @@
 /*!
+<<<<<<< HEAD
  * Bootstrap v4.0.0-beta.2 (https://getbootstrap.com)
  * Copyright 2011-2017 The Bootstrap Authors
  * Copyright 2011-2017 Twitter, Inc.
+=======
+ * Bootstrap v3.3.7 (http://getbootstrap.com)
+ * Copyright 2011-2016 Twitter, Inc.
+>>>>>>> 2c2ac3356425e192f7537227508c809a14aa5850
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 :root {
@@ -2334,6 +2339,7 @@ fieldset[disabled] a.btn {
   background-color: #007bff;
   border-color: #007bff;
 }
+<<<<<<< HEAD
 
 .btn-primary:not([disabled]):not(.disabled):active, .btn-primary:not([disabled]):not(.disabled).active,
 .show > .btn-primary.dropdown-toggle {
@@ -2341,6 +2347,11 @@ fieldset[disabled] a.btn {
   background-color: #0062cc;
   border-color: #005cbf;
   box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.5);
+=======
+a:focus {
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+>>>>>>> 2c2ac3356425e192f7537227508c809a14aa5850
 }
 
 .btn-secondary {
@@ -3346,6 +3357,7 @@ tbody.collapse.show {
 .custom-file + .input-group-addon:not(:first-child) {
   border-left: 0;
 }
+<<<<<<< HEAD
 
 .input-group-btn {
   position: relative;
@@ -3353,6 +3365,13 @@ tbody.collapse.show {
   align-items: stretch;
   font-size: 0;
   white-space: nowrap;
+=======
+input[type="file"]:focus,
+input[type="radio"]:focus,
+input[type="checkbox"]:focus {
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+>>>>>>> 2c2ac3356425e192f7537227508c809a14aa5850
 }
 
 .input-group-btn > .btn {
@@ -3629,8 +3648,21 @@ tbody.collapse.show {
 
 .nav-tabs .nav-link {
   border: 1px solid transparent;
+<<<<<<< HEAD
   border-top-left-radius: 0.25rem;
   border-top-right-radius: 0.25rem;
+=======
+  border-radius: 4px;
+}
+.btn:focus,
+.btn:active:focus,
+.btn.active:focus,
+.btn.focus,
+.btn:active.focus,
+.btn.active.focus {
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+>>>>>>> 2c2ac3356425e192f7537227508c809a14aa5850
 }
 
 .nav-tabs .nav-link:focus, .nav-tabs .nav-link:hover {
@@ -4438,10 +4470,54 @@ tbody.collapse.show {
   border-top-left-radius: 0.25rem;
   border-bottom-left-radius: 0.25rem;
 }
+<<<<<<< HEAD
 
 .page-item:last-child .page-link {
   border-top-right-radius: 0.25rem;
   border-bottom-right-radius: 0.25rem;
+=======
+.btn-group-vertical > .btn:not(:first-child):not(:last-child) {
+  border-radius: 0;
+}
+.btn-group-vertical > .btn:first-child:not(:last-child) {
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.btn-group-vertical > .btn:last-child:not(:first-child) {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+.btn-group-vertical > .btn-group:not(:first-child):not(:last-child) > .btn {
+  border-radius: 0;
+}
+.btn-group-vertical > .btn-group:first-child:not(:last-child) > .btn:last-child,
+.btn-group-vertical > .btn-group:first-child:not(:last-child) > .dropdown-toggle {
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.btn-group-vertical > .btn-group:last-child:not(:first-child) > .btn:first-child {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+.btn-group-justified {
+  display: table;
+  width: 100%;
+  table-layout: fixed;
+  border-collapse: separate;
+}
+.btn-group-justified > .btn,
+.btn-group-justified > .btn-group {
+  display: table-cell;
+  float: none;
+  width: 1%;
+}
+.btn-group-justified > .btn-group .btn {
+  width: 100%;
+>>>>>>> 2c2ac3356425e192f7537227508c809a14aa5850
 }
 
 .page-item.active .page-link {
@@ -4468,10 +4544,38 @@ tbody.collapse.show {
   border-top-left-radius: 0.3rem;
   border-bottom-left-radius: 0.3rem;
 }
+<<<<<<< HEAD
 
 .pagination-lg .page-item:last-child .page-link {
   border-top-right-radius: 0.3rem;
   border-bottom-right-radius: 0.3rem;
+=======
+.input-group .form-control:focus {
+  z-index: 3;
+}
+.input-group-lg > .form-control,
+.input-group-lg > .input-group-addon,
+.input-group-lg > .input-group-btn > .btn {
+  height: 46px;
+  padding: 10px 16px;
+  font-size: 18px;
+  line-height: 1.3333333;
+  border-radius: 6px;
+}
+select.input-group-lg > .form-control,
+select.input-group-lg > .input-group-addon,
+select.input-group-lg > .input-group-btn > .btn {
+  height: 46px;
+  line-height: 46px;
+}
+textarea.input-group-lg > .form-control,
+textarea.input-group-lg > .input-group-addon,
+textarea.input-group-lg > .input-group-btn > .btn,
+select[multiple].input-group-lg > .form-control,
+select[multiple].input-group-lg > .input-group-addon,
+select[multiple].input-group-lg > .input-group-btn > .btn {
+  height: auto;
+>>>>>>> 2c2ac3356425e192f7537227508c809a14aa5850
 }
 
 .pagination-sm .page-link {
@@ -7249,10 +7353,26 @@ a.bg-dark:focus, a.bg-dark:hover {
 .px-4 {
   padding-right: 1.5rem !important;
 }
+<<<<<<< HEAD
 
 .pb-4,
 .py-4 {
   padding-bottom: 1.5rem !important;
+=======
+.carousel-control {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 15%;
+  font-size: 20px;
+  color: #fff;
+  text-align: center;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, .6);
+  background-color: rgba(0, 0, 0, 0);
+  filter: alpha(opacity=50);
+  opacity: .5;
+>>>>>>> 2c2ac3356425e192f7537227508c809a14aa5850
 }
 
 .pl-4,
@@ -7807,6 +7927,7 @@ a.bg-dark:focus, a.bg-dark:hover {
     margin-left: auto !important;
   }
 }
+<<<<<<< HEAD
 
 @media (min-width: 992px) {
   .m-lg-0 {
@@ -8032,6 +8153,25 @@ a.bg-dark:focus, a.bg-dark:hover {
   .pb-lg-5,
   .py-lg-5 {
     padding-bottom: 3rem !important;
+=======
+@media screen and (min-width: 768px) {
+  .carousel-control .glyphicon-chevron-left,
+  .carousel-control .glyphicon-chevron-right,
+  .carousel-control .icon-prev,
+  .carousel-control .icon-next {
+    width: 30px;
+    height: 30px;
+    margin-top: -10px;
+    font-size: 30px;
+  }
+  .carousel-control .glyphicon-chevron-left,
+  .carousel-control .icon-prev {
+    margin-left: -10px;
+  }
+  .carousel-control .glyphicon-chevron-right,
+  .carousel-control .icon-next {
+    margin-right: -10px;
+>>>>>>> 2c2ac3356425e192f7537227508c809a14aa5850
   }
   .pl-lg-5,
   .px-lg-5 {
